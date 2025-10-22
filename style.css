@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+   padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+ margin: 0;
+}
+
+ul li {
+  float: left;
+  border-right:1px solid #bbbbbb;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111111;
+}
+
+ul li a.active {
+  background-color: #04AA6D;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+padding-top: 20px;
+background-color: #FFF8DC;
+}
+.heroc1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.heroc2 h1{
+    font-size: 50px;
+    color: aqua;
+}
+.heroc2 button{
+    width: 130px;
+    height: 40px;
+    background-color: bisque;
+    border: none;
+    border-radius: 25px;
+    padding: auto;
+}
+.brand{
+  width:100% ;
+  height: 480px;
+  
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+
+
+    
+}
+.br{
+  width: 23%;
+  height: 300px;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius:10px ;
+  text-align: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.brendchild{
+  display: flex;
+  gap: 8px;
+  margin-left: 45px;
+
+}
+.experience{
+  width: 100%;
+  height: 700px;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.epc1{
+  display: flex;
+  width: 100%;
+  height: 160px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding: 20px;
+ margin-top: 40px;
+}
+.logo{
+  padding-top: 20px;
+}
+.ep{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+.content{
+  padding-left: 20px;
+
+}
+.et{
+  font-size: 50px;
+  font-weight: 900px;
+}
+.pc1 img{
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  border: solid red;
+  overflow: hidden;
+  transition: transform 3s ease-out;
+}
+.pc1 img:hover{
+  transform: scale(1.2,1.2);
+  overflow: hidden;
+}
+.pc1{
+  overflow: hidden;
+}
+.project{
+  width: 100%;
+  height: 1200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.prochild1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5px;
+  padding-top: 20px;
+}
+
+
